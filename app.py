@@ -30,7 +30,7 @@ diccionario = pd.read_excel("DICCIONARIO.xlsx", sheet_name="Hoja1")
 # Mostrar el diccionario de variables al usuario
 st.sidebar.title("Diccionario de Variables")
 for index, row in diccionario.iterrows():
-    st.sidebar.markdown(f"**{row['Variable']}**: {row['Descripción']}")
+    st.sidebar.markdown(f"**{row['CAMPO']}**: {row['DESCRIPCIÓN']}")
 
 # Formulario de entrada de datos
 st.subheader("Ingresa los datos del cliente:")
