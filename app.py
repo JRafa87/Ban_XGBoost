@@ -17,8 +17,8 @@ st.title("Predicción de Riesgo de Default Bancario")
 st.markdown("**Bienvenido a la herramienta de predicción de riesgo de default bancario.**")
 
 # Mostrar imagen relacionada con el tema
-image = Image.open("imagen_default.jpg")  # Cambia el nombre por la imagen que desees
-st.image(image, caption="Previsión de Riesgo de Default Bancario", use_column_width=True)
+#image = Image.open("imagen_default.jpg")  # Cambia el nombre por la imagen que desees
+#st.image(image, caption="Previsión de Riesgo de Default Bancario", use_column_width=True)
 
 # Cargar el dataset y las columnas (si es necesario para mostrar diccionario)
 data = pd.read_csv("base10.csv")
