@@ -7,7 +7,7 @@ import seaborn as sns
 from PIL import Image
 
 # Cargar modelo y scaler
-model = joblib.load("mejor_modelo_xgb.pkl")
+model = joblib.load("modelo_xgb.pkl")
 
 # Configuración del layout
 st.set_page_config(page_title="Predicción de Riesgo de Default Bancario", layout="wide")
