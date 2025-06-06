@@ -25,7 +25,7 @@ data = pd.read_csv("base10.csv")
 columnas = data.drop(columns=["FLG_CLI_DEF60"]).columns
 
 # Si tienes un diccionario de variables, podrías cargarlo aquí
-diccionario = pd.read_excel("DICCIONARIO.xlsx", sheet_name="Variables")
+diccionario = pd.read_excel("DICCIONARIO.xlsx", sheet_name="Hoja1")
 
 # Mostrar el diccionario de variables al usuario
 st.sidebar.title("Diccionario de Variables")
